@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+
+    <title>RM1 Campaign</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="iium.png" alt="iium">
+        </div>
+
+        <div class="title">
+            <p>RM1 CAMPAIGN</p>
+        </div>
+
+        <div class="desc1">
+            <p class="one">Let your contributions be </p>
+            <p class="two">PERPETUAL</p>
+            <p class="three">for the pleasure of Allah SWT</p>
+        </div>
+
+        <div class="desc2">
+            "The example of those who spend their wealth in the
+            way of Allah is like a seed of [of grain] which grows seven
+            spikes; in each spikes is a hundred grains. And Allah
+            multiplies [His reward] for whom He wills. And Allah is 
+            all-Encompassing and Knowing."
+            Al - Baqarah: 261
+        </div>  
+    </header>
+
+    <section class="a" id="a">
+        
+        <h2>RM1 Campaign</h2> 
+
+        <div class="address">
+            <p>Director</p>
+            <p>IIUM Endowment Fund</p>
+            <p>Level 3, Rectory Building</p>
+            <p>International Islamic University Malaysia</p>
+        </div>
+
+    </section>
+    <form method="post">
+    <section class="b">
+        <h3>Participation in RM1 campaign - Monthly Salary Deduction</h3>
+
+        <div class="non">
+            <label for="name">Name: <span aria-label="required">*</span></label>
+            <input id="name" type="text" name="name" required/>
+            <br></br>
+
+            <label for="staff">Staff No: <span aria-label="required">*</span></label>
+            <input id="staff" type="number" name="staff" required/>
+            <br></br>
+
+            <label for="choice">K/C/D/I/O<span aria-label="required">*</span></label>
+            <select id="choice">
+                <option value="">Make a choice</option>
+                <option value="k">K</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="i">I</option>
+                <option value="o">O</option>
+            </select>
+            <br></br>
+
+            <label for="contact">Contact No.: <span aria-label="required">*</span></label>
+            <input id="contact" type="text" name="contact" required/>
+            <br></br>
+
+            <label for="email">Email: <span aria-label="required">*</span></label>
+            <input id="email" type="email" name="email" required/>
+            <br></br>
+
+            <label for="amount">Amount to be Deducted: <span aria-label="required">* RM:</span></label>
+            <input id="amount" type="number" name="amount" required/>
+            <br></br>
+
+            <label for="effect">The above salary deduction will take effect from <span aria-label="required">*</span></label>
+            <input id="effect" type="month" name="effect" required/>
+            <label for="effect2">until </label>
+            <input id="effect2" type="month" name="effect2" required/>
+            <label for="effect"> or further notice</label>
+            <br></br>
+
+            <p>Put your Signature here: <span aria-label="required">*</span></p>
+            <input type="file" class="sign" required/>
+
+            <label for="date">Date<span aria-label="required">*</span></label>
+            <input id="date" type="date" name="date" required/>
+            <br><br>
+
+            <button type="submit" id="submit">Submit</button>
+
+        </div>
+          </form>
+        <br></br>
+    </section>
+
+    <section class="c" id="c">
+        <h3>Kulliyyah Based</h3>
+        <form action="/submit-form" method="post">
+        <div class="non">
+            <label for="name">Name: <span aria-label="required">*</span></label>
+            <input id="name" type="text" name="name" required/>
+            <br></br>
+
+            <label for="staff">Staff No: <span aria-label="required">*</span></label>
+            <input id="staff" type="number" name="staff" required/>
+            <br></br>
+
+            <label for="choice">K/C/D/I/O<span aria-label="required">*</span></label>
+            <select id="choice">
+                <option value="">Make a choice</option>
+                <option value="k">K</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="i">I</option>
+                <option value="o">O</option>
+            </select>
+            <br></br>
+
+            <label for="contact">Contact No.: <span aria-label="required">*</span></label>
+            <input id="contact" type="text" name="contact" required/>
+            <br></br>
+
+            <label for="email">Email: <span aria-label="required">*</span></label>
+            <input id="email" type="email" name="email" required/>
+            <br></br>
+
+            <label for="amount">Amount to be Deducted: <span aria-label="required">* RM:</span></label>
+            <input id="amount" type="number" name="amount" required/>
+            <br></br>
+
+            <label for="effect">The above salary deduction will take effect from <span aria-label="required">*</span></label>
+            <input id="effect" type="month" name="effect" required/>
+            <label for="effect2">until </label>
+            <input id="effect2" type="month" name="effect2" required/>
+            <label for="effect"> or further notice</label>
+            <br></br>
+            <label for="kulliyyah">For Kulliyyah of</label>
+            <input id="kulliyyah" type="text" name="kulliyyah" required/>
+            <br></br>
+            <br>
+
+            <p>Put your Signature here: <span aria-label="required">*</span></p>
+            <input type="file" class="sign" required/>
+
+            <label for="date">Date<span aria-label="required">*</span></label>
+            <input id="date" type="date" name="date" required/>
+            <br></br>
+
+            <button type="submit" id="submit">Submit</button>
+        </div>
+        </form>
+    </section>
+
+    <footer>
+        <h3>contact us</h3>
+        <img src="contacts.png" alt="contact" class="contact"
+        width="100">
+        <p>IIUM ENDOWMENT FUND</p>
+        <p>Level 3, Rectory</p>
+        <p>International Islamic University Malaysia</p>
+        <p>P.O Box 10</p>
+        <p>50728 Kuala Lumpur</p>
+        <p>Tel: 03 6196 4268</p>
+        <p>Email: <a href="#ief@iium.edu.my">ief@iium.edu.my</a></p>
+        <p>Website: <a href="#www.iium.edu.my/ief"> www.iium.edu.my/ief</a></p>
+        <p>Facebook: <a href="#www.facebook.com/ief.official/">www.facebook.com/ief.official</a></p>
+       
+    </footer>
+</body>
+</html>
