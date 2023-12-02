@@ -6,7 +6,7 @@ JavaScript Interaction:
 2. When the user hovers over a submit element button, the link of an email, Facebook, and website the text color changes to blue.
 
 Reference:
-1. htmlcheatsheet
+1. [htmlcheatsheet](https://htmlcheatsheet.com/css/)
 2. Pinterest
-3. fonts.google
+3. [fonts.google](https://fonts.google.com/)
 4. https://github.com/roy-tian/learning-area/tree/master
